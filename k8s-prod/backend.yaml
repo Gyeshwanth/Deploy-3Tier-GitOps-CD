@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: ${BACKEND_IMAGE}:${IMAGE_TAG}
+          image: yeshwanthgosi/backend:1.0.7
           ports:
             - containerPort: 5000
           env:
